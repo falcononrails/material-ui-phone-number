@@ -39,7 +39,7 @@ class Item extends React.PureComponent {
             {localization || name}
           </span>
 
-          <span className="dial-code">{`+${dialCode}`}</span>
+          <span className="dial-code">{` +${dialCode}`}</span>
         </MenuItem>
       </RootRef>
     );

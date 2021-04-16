@@ -621,7 +621,7 @@ class MaterialUiPhoneNumber extends React.Component {
                     name={country.name}
                     iso2={country.iso2}
                     dialCode={country.dialCode}
-                    localization={localization && localization[country.name]}
+                    localization={localization && localization[country.iso2]}
                     native
                   />
                 ))}
@@ -635,7 +635,7 @@ class MaterialUiPhoneNumber extends React.Component {
                     name={country.name}
                     iso2={country.iso2}
                     dialCode={country.dialCode}
-                    localization={localization && localization[country.name]}
+                    localization={localization && localization[country.iso2]}
                     native
                   />
                 ))}
@@ -672,7 +672,7 @@ class MaterialUiPhoneNumber extends React.Component {
                       name={country.name}
                       iso2={country.iso2}
                       dialCode={country.dialCode}
-                      localization={localization && localization[country.name]}
+                      localization={localization && localization[country.iso2]}
                     />
                   ))}
 
@@ -689,7 +689,7 @@ class MaterialUiPhoneNumber extends React.Component {
                       name={country.name}
                       iso2={country.iso2}
                       dialCode={country.dialCode}
-                      localization={localization && localization[country.name]}
+                      localization={localization && localization[country.iso2]}
                     />
                   ))}
                 </Menu>
