@@ -55,6 +55,7 @@
     "webpack-merge": "^4.2.1"
   },
   "dependencies": {
+    "@material-ui/icons": "^4.11.2",
     "clsx": "^1.0.4",
     "lodash": "^4.17.14",
     "prop-types": "^15.7.2",

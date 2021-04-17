@@ -16,12 +16,14 @@ import countryData from '../country_data';
 import Item from './Item';
 import '../styles.less';
 import '../flags.png';
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 
 const styles = () => ({
   flagButton: {
     minWidth: 30,
     padding: 0,
     height: 30,
+    marginBottom: 6,
   },
   native: {
     width: 30,
@@ -650,6 +652,7 @@ class MaterialUiPhoneNumber extends React.Component {
                   aria-label="Select country"
                   onClick={(e) => this.setState({ anchorEl: e.currentTarget })}
                   aria-haspopup
+                  endIcon={<ArrowDropDownIcon />}
                 >
                   <div className={inputFlagClasses} />
                 </Button>
